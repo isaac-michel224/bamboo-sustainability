@@ -39,3 +39,4 @@ https://www.google.com/search?q=bamboo+data+%2B+americas&sca_esv=ac3607b23cf7e9a
 https://insights.taylorandfrancis.com/research-impact/geoinformatics/
 https://av.tib.eu/media/66283
 https://www.mdpi.com/2072-4292/13/13/2428
+
