@@ -4,16 +4,14 @@ gc()            # Clear unused memory
 cat("\f")       # Clear the console
 
 # Define your list of packages
-my_packages <- c("tidyverse")
+library(readxl)
+library(dplyr)
+library(stringr)
+library(BIEN)
 
-# Load them all at once
-lapply(my_packages, library, character.only = TRUE)
+#Finding Bamboo Species in the Americas
 
-
-####Work in Progress
-
-
-#Invasice Risk
+#Invasive Risk
 
 
 #Let's focus on  countries in the LATAM & Caribbean region most vulnerable
@@ -21,3 +19,10 @@ lapply(my_packages, library, character.only = TRUE)
 
 
 #Re-assessing the Invasiveness of the Land & Geography
+
+
+#---------------------------------------------------------------------------+
+#Extra Code
+
+####Work in Progress
+#pathways <- read_excel("data/INTRODUCTION_PATHWAYS.xls")
