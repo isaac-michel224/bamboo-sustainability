@@ -7,12 +7,28 @@ cat("\f")       # Clear the console
 library(readxl)
 library(dplyr)
 library(stringr)
+library(tidyverse)
 library(BIEN)
 
-#Finding Bamboo Species in the Americas
+
+vignette("BIEN_tutorial") #Learning how to use the 'BIEN' library for project
+
+#Identifying Bamboo Species in the Americas
+#Link: https://www.guaduabamboo.com/american-bamboo-species/
+
+bambusa_traits <- BIEN_trait_genus(genus = "Bambusa")
+guadua_traits <- BIEN_trait_genus(genus = "Guadua")
+otatea_traits <- BIEN_trait_genus(genus = "Otatea")
+phyllo_traits <- BIEN_trait_genus(genus = "Phyllostachys")
+apoc_traits <- BIEN_trait_genus(genus = "Apoclada")
+chus_traits <- BIEN_trait_genus(genus = "Chusquea")
+ely_traits <- BIEN_trait_genus(genus = "Elytrostachys")
+rhip_traits <- BIEN_trait_genus(genus = "Rhipidocladum")
+aulo_traits <- BIEN_trait_genus(genus = "Aulonemia")
+
+
 
 #Invasive Risk
-vignette("BIEN_tutorial") #Learnign how to use the 'BIEN' library for project
 
 
 
@@ -20,7 +36,7 @@ vignette("BIEN_tutorial") #Learnign how to use the 'BIEN' library for project
 #to natural disasters: 
 
 
-#Re-assessing the Invasiveness of the Land & Geography
+#Re-assessing the Invasive Risk of the Land & Geography
 
 
 #---------------------------------------------------------------------------+
