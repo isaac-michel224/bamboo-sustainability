@@ -21,7 +21,6 @@ Link to Website: https://sites.google.com/view/sustainable-resources-gis/home
 
 ##Sources to Research
 
-https://www.guaduabamboo.com/american-bamboo-species/
 https://bamboou.com/is-bamboo-a-safe-construction-material-in-natural-disasters-like-earthquakes/
 https://www.genobank.org/bamboo#3
 https://www.google.com/search?q=bamboo+%2B+natural+disasters&sca_esv=ac3607b23cf7e9a0&sxsrf=APpeQnvtVcaQ95WYzM61m9tJSuThI-4Xqw%3A1788501034905&source=hp&ei=KlyaaojhNPOsw8cP7aaRoAI&iflsig=ABILxe8AAAAAappqOlRO08AJ0J48lkWDyzhidNKfIIpd&oq=bam&gs_lp=Egdnd3Mtd2l6IgNiYW0qAggAMgQQIxgnMgQQIxgnMgQQIxgnMhAQABiABBiKBRhDGLEDGIMBMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgsQABiABBiKBRiRAjILEAAYgAQYigUYkQIyCxAAGIAEGIoFGJECMgsQABiABBiKBRiSA0iuD1AAWKkEcAB4AJABAJgBaqABrwKqAQMxLjK4AQPIAQD4AQGYAgOgArsCwgIKEC4YgAQYigUYQ5gDAJIHAzEuMqAHgBuyBwMxLjK4B7sCwgcFMC4yLjHIBwiACAE&sclient=gws-wiz
