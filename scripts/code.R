@@ -15,6 +15,7 @@ vignette("BIEN_tutorial") #Learning how to use the 'BIEN' library for project
 
 #Identifying Bamboo Species in the Americas
 #Link: https://www.guaduabamboo.com/american-bamboo-species/
+#Second Link: https://bambubatu.com/bamboo-of-south-america-ornamental-and-economic-species/
 
 bambusa_traits <- BIEN_trait_genus(genus = "Bambusa")
 guadua_traits <- BIEN_trait_genus(genus = "Guadua")
