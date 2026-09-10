@@ -41,7 +41,4 @@ aulo_traits <- BIEN_trait_genus(genus = "Aulonemia")
 
 
 #---------------------------------------------------------------------------+
-#Extra Code
 
-####Work in Progress
-#pathways <- read_excel("data/INTRODUCTION_PATHWAYS.xls")
