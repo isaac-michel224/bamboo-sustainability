@@ -26,15 +26,19 @@ chus_traits <- BIEN_trait_genus(genus = "Chusquea")
 ely_traits <- BIEN_trait_genus(genus = "Elytrostachys") #No Data from BIEN database produced on this particular species
 rhip_traits <- BIEN_trait_genus(genus = "Rhipidocladum")
 aulo_traits <- BIEN_trait_genus(genus = "Aulonemia")
+arthro_traits <- BIEN_trait_genus(genus = "Arthrostylidium")
 
 #Creating a List of Latin American & Caribbean countries to plot data with 
-latam_carib <- c("Brazil","Peru","Colombia","Jamaica",
+my_countries <- c("Brazil","Peru","Colombia","Jamaica",
                "Ecuador","Chile","Mexico","Costa Rica","Venezuela",
                "Belize","Guatemala","Nicaragua", "Honduras",
                "Panama","Colombia","Argentina","Bolivia",
                "Argentina","El Salvador","Guyana","Paraguay",
-               "Uruguay","Haiti","Dominican Republic")
+               "Uruguay","Haiti","Dominican Republic", "Cuba",
+               "Puerto Rico")
 
+latam_carib <- BIEN_plot_country(country = my_countries)
+head(latam_carib)
 #Invasive Risk
 
 
