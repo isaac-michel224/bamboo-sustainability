@@ -27,8 +27,13 @@ ely_traits <- BIEN_trait_genus(genus = "Elytrostachys") #No Data from BIEN datab
 rhip_traits <- BIEN_trait_genus(genus = "Rhipidocladum")
 aulo_traits <- BIEN_trait_genus(genus = "Aulonemia")
 
-
-#BIEN_plot_country(c("Brazil","Peru","Colombia","Jamaica","Ecuador"))
+#Creating a List of Latin American & Caribbean countries to plot data with 
+latam_carib <- c("Brazil","Peru","Colombia","Jamaica",
+               "Ecuador","Chile","Mexico","Costa Rica","Venezuela",
+               "Belize","Guatemala","Nicaragua", "Honduras",
+               "Panama","Colombia","Argentina","Bolivia",
+               "Argentina","El Salvador","Guyana","Paraguay",
+               "Uruguay","Haiti","Dominican Republic")
 
 #Invasive Risk
 
