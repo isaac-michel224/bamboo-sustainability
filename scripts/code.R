@@ -23,7 +23,7 @@ otatea_traits <- BIEN_trait_genus(genus = "Otatea")
 phyllo_traits <- BIEN_trait_genus(genus = "Phyllostachys")
 apoc_traits <- BIEN_trait_genus(genus = "Apoclada")
 chus_traits <- BIEN_trait_genus(genus = "Chusquea")
-ely_traits <- BIEN_trait_genus(genus = "Elytrostachys")
+ely_traits <- BIEN_trait_genus(genus = "Elytrostachys") #No Data from BIEN database produced on this particular species
 rhip_traits <- BIEN_trait_genus(genus = "Rhipidocladum")
 aulo_traits <- BIEN_trait_genus(genus = "Aulonemia")
 
