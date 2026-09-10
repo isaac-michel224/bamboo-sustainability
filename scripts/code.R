@@ -28,6 +28,7 @@ rhip_traits <- BIEN_trait_genus(genus = "Rhipidocladum")
 aulo_traits <- BIEN_trait_genus(genus = "Aulonemia")
 
 
+#BIEN_plot_country(c("Brazil","Peru","Colombia","Jamaica","Ecuador"))
 
 #Invasive Risk
 
