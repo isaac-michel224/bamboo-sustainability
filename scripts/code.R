@@ -44,6 +44,17 @@ latam_carib <- BIEN_list_country(country = my_countries)
 head(latam_carib)
 
 
+
+
+#BIEN_occurrence_genus
+
+
+
+
+
+
+
+
 #Invasive Risk
 
 
