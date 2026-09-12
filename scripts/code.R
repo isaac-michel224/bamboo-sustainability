@@ -34,7 +34,18 @@ arthro_traits <- BIEN_trait_genus(genus = "Arthrostylidium")
 
 guadua_data <- BIEN_occurrence_genus(genus = "Guadua")
 
+plot_data <- BIEN_plot_country(country=c("Brazil", "Ecuador"))
+
 #BIEN_occurrence_genus
+
+
+
+
+
+
+
+
+
 
 
 # my_countries <- c("Brazil","Peru","Colombia","Jamaica",
