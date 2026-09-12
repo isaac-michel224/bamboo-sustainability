@@ -30,21 +30,25 @@ arthro_traits <- BIEN_trait_genus(genus = "Arthrostylidium")
 
 #Creating a List of Latin American & Caribbean countries to plot data with 
 
-my_countries <- c("Brazil","Peru","Colombia")
+#my_countries <- c("Brazil","Peru","Colombia")
 
-latam_carib <- BIEN_plot_country(country = my_countries)
+#latam_carib <- BIEN_list_country(country = my_countries)
 
 
 #head(latam_carib)
 
-# 
-# my_countries <- c("Brazil","Peru","Colombia","Jamaica",
-#                   "Ecuador","Chile","Mexico","Costa Rica","Venezuela",
-#                   "Belize","Guatemala","Nicaragua", "Honduras",
-#                   "Panama","Colombia","Argentina","Bolivia",
-#                   "Argentina","El Salvador","Guyana","Paraguay",
-#                   "Uruguay","Haiti","Dominican Republic", "Cuba",
-#                   "Puerto Rico")
+
+my_countries <- c("Brazil","Peru","Colombia","Jamaica",
+                  "Ecuador","Chile","Mexico","Costa Rica","Venezuela",
+                  "Belize","Guatemala","Nicaragua", "Honduras",
+                  "Panama","Colombia","Argentina","Bolivia",
+                  "Argentina","El Salvador","Guyana","Paraguay",
+                  "Uruguay","Haiti","Dominican Republic", "Cuba",
+                  "Puerto Rico")
+
+
+latam_carib <- BIEN_list_country(country = my_countries)
+
 #Invasive Risk
 
 
