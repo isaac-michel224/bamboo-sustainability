@@ -9,7 +9,8 @@ library(dplyr)
 library(stringr)
 library(tidyverse)
 library(BIEN)
-
+library(maps)
+library(ggplot2)
 
 vignette("BIEN_tutorial") #Learning how to use the 'BIEN' library for project
 
@@ -30,26 +31,24 @@ arthro_traits <- BIEN_trait_genus(genus = "Arthrostylidium")
 
 #Creating a List of Latin American & Caribbean countries to plot data with 
 
-my_countries <- c("Brazil","Peru","Colombia","Jamaica",
-                  "Ecuador","Chile","Mexico","Costa Rica","Venezuela",
-                  "Belize","Guatemala","Nicaragua", "Honduras",
-                  "Panama","Colombia","Argentina","Bolivia",
-                  "Argentina","El Salvador","Guyana","Paraguay",
-                  "Uruguay","Haiti","Dominican Republic", "Cuba",
-                  "Puerto Rico")
 
-
-latam_carib <- BIEN_list_country(country = my_countries)
-
-head(latam_carib)
-
-
-
+guadua_data <- BIEN_occurrence_genus(genus = "Guadua")
 
 #BIEN_occurrence_genus
 
 
-
+# my_countries <- c("Brazil","Peru","Colombia","Jamaica",
+#                   "Ecuador","Chile","Mexico","Costa Rica","Venezuela",
+#                   "Belize","Guatemala","Nicaragua", "Honduras",
+#                   "Panama","Colombia","Argentina","Bolivia",
+#                   "Argentina","El Salvador","Guyana","Paraguay",
+#                   "Uruguay","Haiti","Dominican Republic", "Cuba",
+#                   "Puerto Rico")
+# 
+# 
+# latam_carib <- BIEN_list_country(country = my_countries)
+# 
+# head(latam_carib)
 
 
 
