@@ -31,16 +31,20 @@ arthro_traits <- BIEN_trait_genus(genus = "Arthrostylidium")
 
 #Creating a List of Latin American & Caribbean countries to plot data with 
 
-
+#Occurrence data for the genus 'Guadua' bamboo
 guadua_data <- BIEN_occurrence_genus(genus = "Guadua")
 
-plot_data <- BIEN_plot_country(country=c("Brazil", "Ecuador"))
+selected_countries <- c("Brazil", "Peru", "Ecuador")
 
-#BIEN_occurrence_genus
+#plot_data <- BIEN_plot_country(country=c("Brazil", "Ecuador"))
+
+world_map <- map_data("world")
 
 
-
-
+ggplot() +
+  geom_polygon(data = world_map, aes(x = long, y = lat, group = group)
+               fill = "gray90", color = "white") +
+  geom_point(data = )
 
 
 
