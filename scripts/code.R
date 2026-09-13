@@ -29,13 +29,21 @@ rhip_traits <- BIEN_trait_genus(genus = "Rhipidocladum")
 aulo_traits <- BIEN_trait_genus(genus = "Aulonemia")
 arthro_traits <- BIEN_trait_genus(genus = "Arthrostylidium")
 
+#Occurrence data for the genus 'Guadua' bamboo
+guadua_data <- BIEN_occurrence_genus(genus = "Guadua")
 
+#Plotting Guadua amplexifolia bamboo in the Americas
+guadua_amplexifolia_range <- BIEN_ranges_load_species(species = "Guadua amplexifolia")
 
+map('world', fill = TRUE,
+    col = "grey",
+    bg = "light blue",
+    xlim = c(-180, -20),
+    ylim = c(-60, 80))
 
-
-
-
-
+plot(guadua_amplexifolia_range[1],
+     col = "green",
+     add = TRUE)
 
 
 # my_countries <- c("Brazil","Peru","Colombia","Jamaica",
