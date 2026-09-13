@@ -42,16 +42,6 @@ filtered_data <- guadua_data[guadua_data$country %in% selected_countries, ]
 world_map <- map_data("world")
 
 
-ggplot() +
-  geom_polygon(data = world_map, aes(x = long, y = lat, group = group),
-               fill = "gray90", color = "white") +
-  geom_point(data = filtered_data, aes(x = longitude, y = latitude, color = "green"),
-             alpha = 0.6, size = 1.5) +
-  coord_quickmap() +
-  theme_minimal() +
-  labs(title = "Genus Distribution Across South America",
-       x = "Longitude", y = "Latitude", color = "Species")
-
 
 
 
@@ -88,3 +78,13 @@ ggplot() +
 
 #---------------------------------------------------------------------------+
 
+
+# ggplot() +
+#   geom_polygon(data = world_map, aes(x = long, y = lat, group = group),
+#                fill = "gray90", color = "white") +
+#   geom_point(data = filtered_data, aes(x = longitude, y = latitude, color = "green"),
+#              alpha = 0.6, size = 1.5) +
+#   coord_quickmap() +
+#   theme_minimal() +
+#   labs(title = "Genus Distribution Across South America",
+#        x = "Longitude", y = "Latitude", color = "Species")
