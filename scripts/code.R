@@ -46,6 +46,14 @@ plot(guadua_amplexifolia_range[1],
      add = TRUE)
 
 
+
+
+
+
+
+
+
+
 # my_countries <- c("Brazil","Peru","Colombia","Jamaica",
 #                   "Ecuador","Chile","Mexico","Costa Rica","Venezuela",
 #                   "Belize","Guatemala","Nicaragua", "Honduras",
