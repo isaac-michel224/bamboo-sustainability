@@ -29,17 +29,7 @@ rhip_traits <- BIEN_trait_genus(genus = "Rhipidocladum")
 aulo_traits <- BIEN_trait_genus(genus = "Aulonemia")
 arthro_traits <- BIEN_trait_genus(genus = "Arthrostylidium")
 
-#Creating a List of Latin American & Caribbean countries to plot data with 
 
-#Occurrence data for the genus 'Guadua' bamboo
-guadua_data <- BIEN_occurrence_genus(genus = "Guadua")
-
-selected_countries <- c("Brazil", "Peru", "Ecuador")
-filtered_data <- guadua_data[guadua_data$country %in% selected_countries, ]
-
-#plot_data <- BIEN_plot_country(country=c("Brazil", "Ecuador"))
-
-world_map <- map_data("world")
 
 
 
@@ -77,6 +67,20 @@ world_map <- map_data("world")
 
 
 #---------------------------------------------------------------------------+
+
+# #Creating a List of Latin American & Caribbean countries to plot data with 
+# 
+# #Occurrence data for the genus 'Guadua' bamboo
+# guadua_data <- BIEN_occurrence_genus(genus = "Guadua")
+# 
+# selected_countries <- c("Brazil", "Peru", "Ecuador")
+# filtered_data <- guadua_data[guadua_data$country %in% selected_countries, ]
+# 
+# #plot_data <- BIEN_plot_country(country=c("Brazil", "Ecuador"))
+# 
+# world_map <- map_data("world")
+
+
 
 
 # ggplot() +
