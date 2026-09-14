@@ -60,13 +60,16 @@ ggplot() +
   labs(title = "Species Range Map: Guadua trinii",
        caption = "Data source: BIEN")
 
+# Create a temporary directory for the shapefiles
+temp_dir <- file.path(tempdir(), "BIEN_ranges")
+dir.create(temp_dir, showWarnings = FALSE)
 
 
+# Download range maps for a specific genus ( "Guadua")
+BIEN_ranges_genus(genus = "Guadua", directory = temp_dir)
 
 
-
-
-
+#sgenus_ranges <- BIEN_ranges_load_species(BIEN_metadata_match_data("Guadua")$species)
 
 # my_countries <- c("Brazil","Peru","Colombia","Jamaica",
 #                   "Ecuador","Chile","Mexico","Costa Rica","Venezuela",
