@@ -32,6 +32,17 @@ arthro_traits <- BIEN_trait_genus(genus = "Arthrostylidium")
 #Occurrence data for the genus 'Guadua' bamboo
 guadua_data <- BIEN_occurrence_genus(genus = "Guadua")
 
+
+# Plot occurrence points on a map zooming in on the Americas
+ggplot(guadua_data, aes(x = longitude, y = latitude)) +
+  borders("world", color = "gray85", fill = "gray90") +
+  geom_point(colour = "darkgreen", size =1, alpha = 0.6) +
+  coord_sf(xlim = c(-105, -35), ylim = c(-55, 25)) +
+  theme_minimal() +
+  labs(title = "Occurrence Records for Genus Guadua",
+       x = "Longitude", y = "Latitude",
+       caption = "Data source: BIEN")
+
 #Plotting Guadua amplexifolia bamboo in the Americas
 guadua_amplexifolia_range <- BIEN_ranges_load_species(species = "Guadua amplexifolia")
 
@@ -59,14 +70,6 @@ ggplot() +
   theme_minimal() +
   labs(title = "Species Range Map: Guadua trinii",
        caption = "Data source: BIEN")
-
-# Create a temporary directory for the shapefiles
-temp_dir <- file.path(tempdir(), "BIEN_ranges")
-dir.create(temp_dir, showWarnings = FALSE)
-
-
-# Download range maps for a specific genus ( "Guadua")
-BIEN_ranges_genus(genus = "Guadua", directory = temp_dir)
 
 
 #sgenus_ranges <- BIEN_ranges_load_species(BIEN_metadata_match_data("Guadua")$species)
@@ -100,28 +103,3 @@ BIEN_ranges_genus(genus = "Guadua", directory = temp_dir)
 
 
 #---------------------------------------------------------------------------+
-
-# #Creating a List of Latin American & Caribbean countries to plot data with 
-# 
-# #Occurrence data for the genus 'Guadua' bamboo
-# guadua_data <- BIEN_occurrence_genus(genus = "Guadua")
-# 
-# selected_countries <- c("Brazil", "Peru", "Ecuador")
-# filtered_data <- guadua_data[guadua_data$country %in% selected_countries, ]
-# 
-# #plot_data <- BIEN_plot_country(country=c("Brazil", "Ecuador"))
-# 
-# world_map <- map_data("world")
-
-
-
-
-# ggplot() +
-#   geom_polygon(data = world_map, aes(x = long, y = lat, group = group),
-#                fill = "gray90", color = "white") +
-#   geom_point(data = filtered_data, aes(x = longitude, y = latitude, color = "green"),
-#              alpha = 0.6, size = 1.5) +
-#   coord_quickmap() +
-#   theme_minimal() +
-#   labs(title = "Genus Distribution Across South America",
-#        x = "Longitude", y = "Latitude", color = "Species")
