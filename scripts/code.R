@@ -24,7 +24,7 @@ otatea_traits <- BIEN_trait_genus(genus = "Otatea")
 phyllo_traits <- BIEN_trait_genus(genus = "Phyllostachys")
 apoc_traits <- BIEN_trait_genus(genus = "Apoclada")
 chus_traits <- BIEN_trait_genus(genus = "Chusquea")
-ely_traits <- BIEN_trait_genus(genus = "Elytrostachys") #No Data from BIEN database produced on this particular species
+# ely_traits <- BIEN_trait_genus(genus = "Elytrostachys") #No Data from BIEN database produced on this particular species
 rhip_traits <- BIEN_trait_genus(genus = "Rhipidocladum")
 aulo_traits <- BIEN_trait_genus(genus = "Aulonemia")
 arthro_traits <- BIEN_trait_genus(genus = "Arthrostylidium")
@@ -45,6 +45,20 @@ plot(guadua_amplexifolia_range[1],
      col = "green",
      add = TRUE)
 
+#Plotting Guadua Species Data on Map
+
+monkey_puzzle <- BIEN_ranges_load_species(species = "Guadua trinii")
+
+world_map <- map_data("world")
+
+ggplot() +
+  geom_polygon(data = world_map, aes(x = long, y = lat, group = group),
+               fill = "lightgrey", color = "white") +
+  geom_sf(data = monkey_puzzle, fill = "forestgreen", alpha = 0.6) +
+  coord_sf(xlim = c(-80, -35), ylim = c(-60, 5)) + 
+  theme_minimal() +
+  labs(title = "Species Range Map: Guadua trinii",
+       caption = "Data source: BIEN")
 
 
 
