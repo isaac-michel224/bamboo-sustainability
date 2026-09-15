@@ -46,7 +46,6 @@ ggplot(guadua_data, aes(x = longitude, y = latitude)) +
 #ggsave("visualizations/guadua.png")
 
 
-
 #Occurrence data for Chusquea genus
 chus_data <- BIEN_occurrence_genus(genus = "Chusquea")
 
@@ -62,6 +61,8 @@ ggplot(chus_data, aes(x = longitude, y = latitude)) +
 
 #ggsave("visualizations/chusquea.png")
 
+
+#Occurrence data for Arthrostylidium genus
 arthro_data <- BIEN_occurrence_genus(genus = "Arthrostylidium")
 
 ggplot(arthro_data, aes(x = longitude, y = latitude)) +
@@ -73,6 +74,23 @@ ggplot(arthro_data, aes(x = longitude, y = latitude)) +
        color = "Botanical Genus",
        x = "Longitude", y = "Latitude",
        caption = "Data source: BIEN")
+
+#ggsave("visualizations/arthrostylidium.png")
+
+#Occurrence data for Aulonemia genus
+aulo_data <- BIEN_occurrence_genus(genus = "Aulonemia")
+
+ggplot(aulo_data, aes(x = longitude, y = latitude)) +
+  borders("world", color = "gray85", fill = "gray90") +
+  geom_point(colour = "darkgreen", size =1, alpha = 0.6) +
+  coord_sf(xlim = c(-105, -35), ylim = c(-55, 25)) +
+  theme_minimal() +
+  labs(title = "Occurrence Records for Genus Aulonemia",
+       color = "Botanical Genus",
+       x = "Longitude", y = "Latitude",
+       caption = "Data source: BIEN")
+
+#ggsave("visualizations/aulonemia.png")
 
 
 
@@ -88,12 +106,6 @@ ggplot(arthro_data, aes(x = longitude, y = latitude)) +
 #                   "Uruguay","Haiti","Dominican Republic", "Cuba",
 #                   "Puerto Rico")
 # 
-# latam_carib <- BIEN_list_country(country = my_countries)
-# 
-# head(latam_carib)
-
-
-
 
 #Let's focus on  countries in the LATAM & Caribbean region most vulnerable
 #to natural disasters: 
