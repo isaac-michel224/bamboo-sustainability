@@ -34,7 +34,7 @@ guadua_data <- BIEN_occurrence_genus(genus = "Guadua")
 
 # Plot occurrence points on a map zooming in on the Americas
 ggplot(guadua_data, aes(x = longitude, y = latitude)) +
-  borders("world", color = "gray85", fill = "gray90") +
+  annotation_borders("world", color = "gray85", fill = "gray90") +
   geom_point(colour = "darkgreen", size =1, alpha = 0.6) +
   coord_sf(xlim = c(-105, -35), ylim = c(-55, 25)) +
   theme_minimal() +
@@ -50,7 +50,7 @@ ggplot(guadua_data, aes(x = longitude, y = latitude)) +
 chus_data <- BIEN_occurrence_genus(genus = "Chusquea")
 
 ggplot(chus_data, aes(x = longitude, y = latitude)) +
-  borders("world", color = "gray85", fill = "gray90") +
+  annotation_borders("world", color = "gray85", fill = "gray90") +
   geom_point(colour = "darkgreen", size =1, alpha = 0.6) +
   coord_sf(xlim = c(-105, -35), ylim = c(-55, 25)) +
   theme_minimal() +
@@ -66,7 +66,7 @@ ggplot(chus_data, aes(x = longitude, y = latitude)) +
 arthro_data <- BIEN_occurrence_genus(genus = "Arthrostylidium")
 
 ggplot(arthro_data, aes(x = longitude, y = latitude)) +
-  borders("world", color = "gray85", fill = "gray90") +
+  annotation_borders("world", color = "gray85", fill = "gray90") +
   geom_point(colour = "darkgreen", size =1, alpha = 0.6) +
   coord_sf(xlim = c(-105, -35), ylim = c(-55, 25)) +
   theme_minimal() +
@@ -81,7 +81,7 @@ ggplot(arthro_data, aes(x = longitude, y = latitude)) +
 aulo_data <- BIEN_occurrence_genus(genus = "Aulonemia")
 
 ggplot(aulo_data, aes(x = longitude, y = latitude)) +
-  borders("world", color = "gray85", fill = "gray90") +
+  annotation_borders("world", color = "gray85", fill = "gray90") +
   geom_point(colour = "darkgreen", size =1, alpha = 0.6) +
   coord_sf(xlim = c(-105, -35), ylim = c(-55, 25)) +
   theme_minimal() +
