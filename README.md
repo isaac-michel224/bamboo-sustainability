@@ -5,6 +5,9 @@ The goal is to provide information to countries in the Caribbean and Latin Ameri
 
 Link to Website: https://sites.google.com/view/sustainable-resources-gis/home
 
+4 Genus of Bamboo to Focus On:
+
+Guadua, Chusquea, Arthrostylidium, Aulonemia
 
 # Sources to Research
 
