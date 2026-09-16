@@ -108,7 +108,7 @@ ggplot(aulo_data, aes(x = longitude, y = latitude)) +
 #                   "Argentina","El Salvador","Guyana","Paraguay",
 #                   "Uruguay","Haiti","Dominican Republic", "Cuba",
 #                   "Puerto Rico")
-# 
+
 
 #Let's focus on  countries in the LATAM & Caribbean region most vulnerable
 #to natural disasters: 
