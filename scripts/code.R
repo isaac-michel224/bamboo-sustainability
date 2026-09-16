@@ -98,6 +98,9 @@ ggplot(aulo_data, aes(x = longitude, y = latitude)) +
 #Read: https://www.google.com/search?q=assessing+invasive+species+data+in+r&sca_esv=e76e82dc2fdda140&sxsrf=APpeQntnPRzks11x49vxFKdA1_VhjHm7ag%3A1789349421107&source=hp&ei=LU6naqOJBMD-ptQP9d-d2Ak&iflsig=ABILxe8AAAAAaqdcPVtJqkkQ60y16Z3zvsIuGilSJ4Zl&oq=assessing+invasive+&gs_lp=Egdnd3Mtd2l6IhNhc3Nlc3NpbmcgaW52YXNpdmUgKgUIARigATIFECEYoAEyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKsCMgUQIRifBTIFECEYnwUyBRAhGJ8FMgUQIRifBTIFECEYnwVImkJQAFilNnADeACQAQCYAXWgAdYQqgEEMTQuOLgBA8gBAPgBAZgCGaACgxLCAgQQIxgnwgILEAAYgAQYigUYkQLCAhEQLhiABBixAxiDARjHARjRA8ICDhAuGIAEGIoFGLEDGIMBwgIREC4YgwEYxwEYsQMY0QMYgATCAg4QABiABBiKBRixAxiDAcICDhAuGIAEGMcBGK8BGI4FwgIKEC4YgAQYigUYQ8ICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAhEQABiABBiKBRiNBhixAxiDAcICChAAGIAEGIoFGEPCAgUQLhiABMICDRAuGIAEGIoFGEMYsQPCAhAQABiABBiKBRhDGLEDGIMBwgINEAAYgAQYigUYQxixA8ICBRAAGIAEwgIOEC4YrwEYxwEYgAQYjgXCAggQABiABBi0B8ICBxAAGIAEGArCAgYQABgWGB7CAgsQABiABBiKBRiGA8ICBRAAGO8FwgIIEAAYiQUYogTCAgcQIRgKGKABwgIHECEYqwIYCpgDAOIDBRIBMSBAkgcFMTMuMTKgB8y_AbIHBTEwLjEyuAfwEcIHCDAuNy4xNy4xyAdngAgB&sclient=gws-wiz
 
 
+
+
+
 # my_countries <- c("Brazil","Peru","Colombia","Jamaica",
 #                   "Ecuador","Chile","Mexico","Costa Rica","Venezuela",
 #                   "Belize","Guatemala","Nicaragua", "Honduras",
