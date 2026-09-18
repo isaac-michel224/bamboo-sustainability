@@ -97,7 +97,7 @@ ggplot(aulo_data, aes(x = longitude, y = latitude)) +
 #Next Step: Re-assessing the Invasive Risk of the Land & Geography
 
 #Read GBIF CSV file into dataset to check
-library(rgbif)
+library(rgbif) #Documentation: https://cran.r-project.org/web/packages/rgbif/refman/rgbif.html
 
 
 
