@@ -96,6 +96,9 @@ ggplot(aulo_data, aes(x = longitude, y = latitude)) +
 
 #Next Step: Re-assessing the Invasive Risk of the Land & Geography
 
+#Read GBIF CSV file into dataset to check
+gbif <- read.csv("0002603-250525065834625.csv")
+
 
 #Let's focus on  countries in the LATAM & Caribbean region most vulnerable
 #to natural disasters:
