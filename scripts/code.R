@@ -19,15 +19,11 @@ vignette("BIEN_tutorial") #Learning how to use the 'BIEN' library for project
 #Second Link: https://bambubatu.com/bamboo-of-south-america-ornamental-and-economic-species/
 
 bambusa_traits <- BIEN_trait_genus(genus = "Bambusa")
-# guadua_traits <- BIEN_trait_genus(genus = "Guadua")
 otatea_traits <- BIEN_trait_genus(genus = "Otatea")
-# phyllo_traits <- BIEN_trait_genus(genus = "Phyllostachys")
 apoc_traits <- BIEN_trait_genus(genus = "Apoclada")
 chus_traits <- BIEN_trait_genus(genus = "Chusquea")
-# ely_traits <- BIEN_trait_genus(genus = "Elytrostachys") #No Data from BIEN database produced on this particular species
 rhip_traits <- BIEN_trait_genus(genus = "Rhipidocladum")
-# aulo_traits <- BIEN_trait_genus(genus = "Aulonemia")
-# arthro_traits <- BIEN_trait_genus(genus = "Arthrostylidium")
+
 
 #Occurrence data for the genus 'Guadua' bamboo
 guadua_data <- BIEN_occurrence_genus(genus = "Guadua")
@@ -125,5 +121,8 @@ ggplot(aulo_data, aes(x = longitude, y = latitude)) +
 #                   "Puerto Rico")
 
 
-
-
+# guadua_traits <- BIEN_trait_genus(genus = "Guadua")
+# phyllo_traits <- BIEN_trait_genus(genus = "Phyllostachys")
+# ely_traits <- BIEN_trait_genus(genus = "Elytrostachys") #No Data from BIEN database produced on this particular species
+# aulo_traits <- BIEN_trait_genus(genus = "Aulonemia")
+# arthro_traits <- BIEN_trait_genus(genus = "Arthrostylidium")
