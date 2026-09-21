@@ -102,7 +102,21 @@ plot(Guadua_angustifolia_range[1],
      col = "green",
      add = TRUE)
 
-jpeg("visualizations/gua-angus.jpg")
+
+#Gather Data on Predictor Variables: Annual mean temperature, Rainfall, and Elevation
+library(geodata)
+library(terra)
+
+
+
+
+#jpeg("visualizations/gua-angus.jpg")
+#Let us start with Haiti at first to check on invasive species of bamboo
+#Let us try 'Guadua angustifolia' -
+#https://github.com/ShawanChowdhury/InvasiveSpecies_SocialMedia_Bd
+#Question: Do this and other  countries have the conditions to match other country's bamboo biodiverstiy?
+
+
 
 #Next Step: Re-assessing the Invasive Risk of the Land & Geography
 
@@ -113,11 +127,6 @@ jpeg("visualizations/gua-angus.jpg")
 
 #Let's focus on  countries in the LATAM & Caribbean region most vulnerable
 #to natural disasters:
-
-#Let us start with Haiti at first to check on invasive species of bamboo
-#Let us try 'Guadua angustifolia' -
-#https://github.com/ShawanChowdhury/InvasiveSpecies_SocialMedia_Bd
-#Question: Do this and other  countries have the conditions to match other country's bamboo biodiverstiy?
 
 
 
