@@ -98,9 +98,10 @@ map('world', fill = TRUE ,
     ylim = c(-60, 80))
 
 #Now, we can add the range map:
-plot(Xanthium_strumarium_range[1],
+plot(Guadua_angustifolia_range[1],
      col = "green",
      add = TRUE)
+
 #Next Step: Re-assessing the Invasive Risk of the Land & Geography
 
 #Read GBIF CSV file into dataset to check
