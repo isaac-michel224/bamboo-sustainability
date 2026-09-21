@@ -120,6 +120,8 @@ elev_data <- worldclim_global(var = "elev", res = 10, path = path)
 #Let us try 'Guadua angustifolia' -
 #https://github.com/ShawanChowdhury/InvasiveSpecies_SocialMedia_Bd
 #Question: Do this and other  countries have the conditions to match other country's bamboo biodiverstiy?
+#Since the country lacks bamboo data, it may be best to make a prediction model 
+#https://www.google.com/search?q=predicting+invasive+species+%2B+r&sca_esv=9828cd16d3c42ece&sxsrf=APpeQnsMll-IYaHvf-kgVdqB-kO1JSKlAQ%3A1789966687342&source=hp&ei=X7mwaoeIE8DaptQP4pvb6Aw&iflsig=ABILxe8AAAAAarDHbxLQwDxHkLbxfUWpIwTnz9o0aYFL&ved=0ahUKEwjHs7rE8f6WAxVArYkEHeLNFs0Q4dUDCC0&uact=5&oq=predicting+invasive+species+%2B+r&gs_lp=Egdnd3Mtd2l6Ih9wcmVkaWN0aW5nIGludmFzaXZlIHNwZWNpZXMgKyByMgUQIRigATIFECEYqwIyBRAhGKsCMgUQIRirAjIFECEYnwUyBRAhGJ8FMgUQIRifBTIFECEYnwVIpktQAFjuSXAAeACQAQCYAXKgAf4PqgEEMTkuNbgBA8gBAPgBAZgCGKACixHCAgQQIxgnwgILEAAYgAQYigUYkQLCAg4QLhiABBiKBRixAxiDAcICDhAAGIAEGIoFGLEDGIMBwgIIEAAYgAQYsQPCAgsQLhiABBixAxiDAcICBRAAGIAEwgIIEC4YgAQYsQPCAgsQABiABBixAxiDAcICDhAuGIAEGLEDGMcBGNEDwgIEEAAYA8ICCBAAGIAEGLQHwgIKEAAYgAQYFBiHAsICBhAAGBYYHsICCxAAGIAEGIoFGIYDwgIFEAAY7wWYAwCSBwQxNi44oAfmpgGyBwQxNi44uAeLEcIHBjAuOC4xNsgHUoAIAQ&sclient=gws-wiz
 
 
 
