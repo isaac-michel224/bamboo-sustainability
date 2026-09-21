@@ -102,6 +102,7 @@ plot(Guadua_angustifolia_range[1],
      col = "green",
      add = TRUE)
 
+jpeg("visualizations/gua-angus.jpg")
 
 #Next Step: Re-assessing the Invasive Risk of the Land & Geography
 
