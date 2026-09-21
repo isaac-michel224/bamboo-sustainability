@@ -94,7 +94,7 @@ Guadua_angustifolia_range <- BIEN_ranges_load_species(species = "Guadua angustif
 map('world', fill = TRUE ,
     col= "grey",
     bg = "light blue",
-    xlim = c(-190, -25),
+    xlim = c(-160, -30),
     ylim = c(-60, 35))
 
 #Now, we can add the range map:
