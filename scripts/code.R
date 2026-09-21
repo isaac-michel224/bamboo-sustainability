@@ -107,12 +107,17 @@ plot(Guadua_angustifolia_range[1],
 library(geodata)
 library(terra)
 
-path <- tempdir()
+#path <- tempdir()
 
-clim_data <- worldclim_global(var = "bio", res = 10, path = path)
-elev_data <- worldclim_global(var = "elev", res = 10, path = path)
+clim_data <- worldclim_global(var = "bio", res = 10, path = "data/")
+elev_data <- worldclim_global(var = "elev", res = 10, path = "data/")
 
 #bio_ht <- worldclim_country(country="BGD", var = "bio", res = 0.5 / 60, path = "data/")
+
+
+
+################
+
 
 
 #jpeg("visualizations/gua-angus.jpg")
