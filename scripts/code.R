@@ -12,11 +12,13 @@ library(BIEN)
 library(maps)
 library(ggplot2)
 
-vignette("BIEN_tutorial") #Learning how to use the 'BIEN' library for project
+#vignette("BIEN_tutorial") #Learning how to use the 'BIEN' library for project
 
 #Identifying Bamboo Species in the Americas
 #Link: https://www.guaduabamboo.com/american-bamboo-species/
 #Second Link: https://bambubatu.com/bamboo-of-south-america-ornamental-and-economic-species/
+
+#Note: Retrieving the genus and species occurrence data may take some time to load and process
 
 bambusa_traits <- BIEN_trait_genus(genus = "Bambusa")
 otatea_traits <- BIEN_trait_genus(genus = "Otatea")
