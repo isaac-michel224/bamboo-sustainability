@@ -111,8 +111,8 @@ library(terra)
 
 #path <- tempdir()
 
-# clim_data <- worldclim_global(var = "bio", res = 10, path = "data/")
-# elev_data <- worldclim_global(var = "elev", res = 10, path = "data/")
+clim_data <- worldclim_global(var = "bio", res = 10, path = "data/")
+elev_data <- worldclim_global(var = "elev", res = 10, path = "data/")
 
 #bio_ht <- worldclim_country(country="BGD", var = "bio", res = 0.5 / 60, path = "data/")
 
@@ -123,7 +123,7 @@ library(terra)
 
 
 #jpeg("visualizations/gua-angus.jpg")
-#Let us start with Haiti at first to check on invasive species of bamboo
+#Let us start with Haiti at first to check on invasive species of bamboo (country code = HTI)
 #Let us try 'Guadua angustifolia' -
 #https://github.com/ShawanChowdhury/InvasiveSpecies_SocialMedia_Bd
 #Question: Do this and other  countries have the conditions to match other country's bamboo biodiverstiy?
