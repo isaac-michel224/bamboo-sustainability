@@ -109,13 +109,12 @@ plot(Guadua_angustifolia_range[1],
 library(geodata)
 library(terra)
 
-#path <- tempdir()
-# 
-# clim_data <- worldclim_global(var = "bio", res = 10, path = "data/")
-# elev_data <- worldclim_global(var = "elev", res = 10, path = "data/")
-
 bio_ht <- worldclim_country(country="HTI", var = "bio", res = 0.5 / 60, path = "data/")
 elev_ht <- worldclim_country(country="HTI", var = "elev", res = 0.5 / 60, path = "data/")
+
+
+
+
 
 
 ################
@@ -168,3 +167,9 @@ elev_ht <- worldclim_country(country="HTI", var = "elev", res = 0.5 / 60, path =
 # ely_traits <- BIEN_trait_genus(genus = "Elytrostachys") #No Data from BIEN database produced on this particular species
 # aulo_traits <- BIEN_trait_genus(genus = "Aulonemia")
 # arthro_traits <- BIEN_trait_genus(genus = "Arthrostylidium")
+
+
+#path <- tempdir()
+# 
+# clim_data <- worldclim_global(var = "bio", res = 10, path = "data/")
+# elev_data <- worldclim_global(var = "elev", res = 10, path = "data/")
